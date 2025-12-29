@@ -90,7 +90,7 @@ local function createShop(shopType, id)
     else
         coords = store
     end
-
+    
 	shop[id] = {
 		label = shop.name,
 		id = shopType..' '..id,
